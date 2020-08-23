@@ -6,8 +6,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if BRANDS.include?(brand_name) == false
-      BRANDS << brand_name
+    if BRANDS.include?(brand) == false
+      BRANDS << brand
     else
     end
   end
@@ -17,10 +17,10 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def brand=(brand_name)
-    @brand = brand_name
-    if BRANDS.include?(brand_name) == false
-      BRANDS << brand_name
+  def brand=(brand)
+    @brand = brand
+    if BRANDS.include?(brand) == false
+      BRANDS << brand
     else
     end
   end
