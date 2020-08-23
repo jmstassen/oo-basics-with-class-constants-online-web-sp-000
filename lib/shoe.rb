@@ -13,9 +13,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def brand=(brand)
-    @brand = brand
-    if BRANDS.include?(brand) == false
+  def brand=(brand_name)
+    @brand = brand_name
+    if BRANDS.include?(brand_name) == false
       BRANDS << brand
     else
     end
